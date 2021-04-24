@@ -1,0 +1,129 @@
+/* style.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  margin: 0
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #040404 ;
+}
+
+p{
+ font-family: 'Roboto', sans-serif;
+ color: #040404 ;
+ opacity:.7;
+}
+ 
+.container{
+	width: 800px;
+  height: 500px;
+	margin: 50px;
+}
+
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/backpic.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 120px;
+  text-align: center;
+}
+
+.banner h1 {
+	color: #FFFFFF
+}
+
+.banner p {
+	color: #FFFFFF
+}
+
+.button-yellow {
+  background-color: #F6BE00;
+  color: #FFFFFF ;
+  padding: 8px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-yellow:hover {
+  color: #000080;
+}
+
+.card {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  border-radius:6px;
+  width: 240px;
+  text-align: center;
+  padding:24px;
+  margin: 8px;
+}
+
+.card img {
+  width: 240px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:14px;
+}
+
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card {
+    width: auto;
+  }
+}
+
+.footer {
+  background: #EEEEEE;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: black;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Write some CSS below */
+
+
+
+
+
+
